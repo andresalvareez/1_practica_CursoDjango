@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "whitenoise.runserver_nostatic",
     'relecloud',
     'crispy_forms',
     'crispy_bootstrap4'
@@ -127,6 +128,6 @@ USE_TZ = True
 
 STATIC_URL = '/relecloud/static/'
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage' 
+STATICFILES_STORAGE = ('whitenoise.storage.CompressedManifestStaticFilesStorage')
 
 STATIC_ROOT = BASE_DIR/'staticfiles'

@@ -1,0 +1,7 @@
+django
+django-crispy-forms
+crispy-bootstrap4
+bootstrap4
+whitenoise
+pyscopg2
+pyscopg2-binary

@@ -1,28 +1,6 @@
 {
-    "workbench.colorCustomizations": {
-        "[SaloMonK Dark]": {
-            "statusBar.background": "#181818",
-            "statusBar.noFolderBackground": "#181818",
-            "statusBar.debuggingBackground": "#181818",
-            "titleBar.activeBackground": "#181818",
-            "activityBar.background": "#181818",
-            "tab.activeBackground": "#252526",
-            "tab.inactiveBackground": "#181818",
-            "tab.border": "#181818"
-        },
-        "[Lo-Fi Loop Theme]": {
-            "statusBar.background": "#181D27",
-            "statusBar.border": "#202632",
-            "titleBar.border": "#202632"
-        },
-        "statusBar.noFolderBorder": "#202632",
-        "minimap.background": "#00000000",
-        "scrollbar.shadow": "#00000000"
-    },
-
     "appService.defaultWebAppToDeploy": "",
     "appService.deploySubpath": ".",
     "python-pythonPath": "./venv/bin/python",
-    "appService.showBuildDuringDeployPrompt": false,
-    
+    "appService.showBuildDuringDeployPrompt": false
 }
